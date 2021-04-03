@@ -3,7 +3,7 @@ title: "M5Paper + PlatformIO + Arduino でHelloWorld"
 emoji: "🗒"
 type: "tech"
 topics: ["M5Paper", "PlatformIO", "Arduino"]
-published: false
+published: true
 ---
 
 先日ひょんなことで手に入れた[M5Paper](https://www.switch-science.com/catalog/6749/)。
@@ -26,7 +26,7 @@ e-inkで電池もよく持ちそうなので家の温度とかを表示したい
 [M5Stack](https://m5stack-store.myshopify.com/pages/download) のページに移動します。
 CP2104 Driverの「Download」をクリックするとプラットフォームが選べるので、動かしている環境を選択し、ドライバをダウンロードします。
 
-![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/36587/e2114f1b-c2a0-3b9e-6003-3e24e30c2b2d.png)
+![](https://storage.googleapis.com/zenn-user-upload/nily67bcszp06up6ylvs4yslu27u)
 
 ダウンロードしたドライバを実行し、インストールを実施します。
 
@@ -178,8 +178,25 @@ void loop()
 
 ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/36587/eb7f04a5-b65d-751c-ac57-ecbbfe31ac87.png)
 
+ライブラリが読み込まれなく、エラーとなっている場合はVisual Studio Codeを再起動します。（多分もっといい方法があると思うので、誰か教えてください）
 
-### ビルド&デプロイ
 
-コードも書いたのでようやくビルド&デプロイです。
+### ビルド
 
+コードも書いたのでようやくビルドです。
+
+画面下のチェックボタンをクリックするとビルドが開始します。
+
+![](https://storage.googleapis.com/zenn-user-upload/2tr0crnnfrh2196ownscgnqfmnn2)
+
+`SUCCESS` と表示されたことを確認します。
+
+### デプロイ
+
+ようやくデプロイですね。
+
+M5 PaperをUSBで接続し、画面下の→ボタンをクリックするとビルドが開始します。
+
+![](https://storage.googleapis.com/zenn-user-upload/ddqs0z0c0tj5m1tde6ppg7e5gjmk)
+
+`SUCCESS` と表示されたことを確認します。
