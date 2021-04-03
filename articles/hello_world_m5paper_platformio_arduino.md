@@ -200,3 +200,6 @@ M5 PaperをUSBで接続し、画面下の→ボタンをクリックするとビ
 ![](https://storage.googleapis.com/zenn-user-upload/ddqs0z0c0tj5m1tde6ppg7e5gjmk)
 
 `SUCCESS` と表示されたことを確認します。
+
+M5 Paperに画像が表示されました！やったね！
+![](https://storage.googleapis.com/zenn-user-upload/x2lpp01mulg9jsv23covba9ik76i)
