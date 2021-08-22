@@ -9,6 +9,7 @@ published: true
 はじめてISUCON11予選に参加したので、その記録です。
 Golangを選択し、結果は130位、33,750点でした。
 
+
 ## チーム
 
 チーム名は「慎太郎」。
@@ -21,6 +22,9 @@ ISUCONに参加したかったものの、仲間がいなかったので参加�
 - @yktakaha4 : アプリ
 - @kangaechu : インフラ
 - @matchasong : ベンチマーク実行、全体的な管理
+
+@yktakaha4の参加記録
+https://zenn.dev/yktakaha4/articles/postmortem_isucon11
 
 ## 準備
 
