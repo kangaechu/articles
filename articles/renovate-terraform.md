@@ -3,7 +3,7 @@ title: "Terraformのアップデートにちょっと便利なRenovate"
 emoji: "✨"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["terraform", "renovate"]
-published: false
+published: true
 ---
 
 Terraformのアップデートに[Renovate](https://docs.renovatebot.com/) を使うのもよかったよという話です。
