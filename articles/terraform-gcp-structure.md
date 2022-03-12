@@ -53,7 +53,7 @@ CIの権限付与を考えるのであれば、プロジェクトごとにtfstat
 
 config.tfはこんな感じ。
 
-``hcl:config.tf
+```hcl:config.tf
 terraform {
   required_version = "1.1.7"
 
