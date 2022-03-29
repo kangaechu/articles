@@ -146,8 +146,6 @@ jobs:
           echo export AWS_SESSION_TOKEN="$(echo $aws_sts_credentials | jq -r '.SessionToken')" >> $BASH_ENV
           source $BASH_ENV
       - run: aws sts get-caller-identity
-      - run:
-          echo ${CIRCLE_OIDC_TOKEN:1}; # OIDC Tokenを取得
 
 workflows:
   awscli:
