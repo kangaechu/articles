@@ -19,7 +19,8 @@ https://maaash.jp/2022/04/deprecating-irkit/
 ただ、お知らせに修正したファームウェアを書き込むと継続して使用できるそうなので、作業の記録をまとめてみました。
 
 :::message
-以前は https://github.com/irkit/device/pull/6 を使用する方法としていましたが、追加の設定が必要だったため自分のリポジトリにforkしたものを作成しました。
+以前は https://github.com/irkit/device/pull/6 を使用する方法としていましたが、
+追加の設定が必要だったため自分のリポジトリにforkしたものを使用する手順に修正しました。
 :::
 
 ## 環境
