@@ -18,6 +18,10 @@ https://maaash.jp/2022/04/deprecating-irkit/
 自宅では寒い日にリビングのエアコンをONにするために使われており、今年も使用する予定だったのでどうしようかと思ってました。
 ただ、お知らせに修正したファームウェアを書き込むと継続して使用できるそうなので、作業の記録をまとめてみました。
 
+:::message
+以前は https://github.com/irkit/device/pull/6 を使用する方法としていましたが、追加の設定が必要だったため自分のリポジトリにforkしたものを作成しました。
+:::
+
 ## 環境
 
 - Macbook Air 2020 (Apple M1)
@@ -52,38 +56,8 @@ USB Micro-Bケーブルを使用し、IRKitとMacを接続します。
 ターミナルから以下のコマンドを実行し、ソースコードを取得します。
 
 ```shell
-git clone https://github.com/irkit/device.git
+git clone https://github.com/kangaechu/device
 cd device
-```
-
-### ブランチの切り替え
-
-masterブランチのコードの場合、IRKitがインターネットに接続します。
-接続先のサーバが停止してIRKitがエラーとなるため、 [Options for LED behavior and offline mode](https://github.com/irkit/device/pull/6) のブランチに切り替えます。
-このブランチでは、設定によりインターネット接続やLEDの振る舞いを変更できます。
-
-ターミナルから以下のコマンドを実行し、ブランチを切り替えます。
-
-```shell
-git switch acourreges:settings-led-cloud
-```
-
-### rebase
-
-このブランチは2015年に修正がされて以来更新されていないため、最新のArduinoでビルドするとエラーとなります。それを防ぐため、ターミナルから以下のコマンドを実行し、masterブランチの内容をこのブランチに取り込みます。
-
-```shell
-git rebase master
-```
-
-### サーバへの接続を無効化
-
-デフォルトではインターネット接続が有効化されているため、`firmware/src/IRKit/config.h` をエディタで開き、サーバへの接続を行うオプションを`true`から`false`に変更することで無効化します。
-
-https://github.com/acourreges/device/blob/cac325a3051122020f27d6b7d1055abcf8d5e44f/firmware/src/IRKit/config.h#L40
-
-```c
-    const bool useCloudControl = false;
 ```
 
 ### Arduinoで開く
