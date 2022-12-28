@@ -6,11 +6,11 @@ topics: ["irkit", "iot"]
 published: false
 ---
 
-https://zenn.dev/articles/irkit_install_custom_firmware の続きで、同じWifiに接続したiPhoneからIRKitを操作する手順です。
+[IRKitを延命する](https://zenn.dev/kangaechu/articles/irkit_install_custom_firmware) の続きで、同じWifiに接続したiPhoneからIRKitを操作する手順です。
 
 ## 目的
 
-https://zenn.dev/articles/irkit_install_custom_firmware の記事でIRKitを延命できました。
+[IRKitを延命する](https://zenn.dev/kangaechu/articles/irkit_install_custom_firmware) の記事でIRKitを延命できました。
 そもそも自分がIRKitを使っている目的は、冬の朝に起きるのが辛いので、自分が起きる時間よりちょっと早くエアコンをつけたいというものでした。
 エアコンにもタイマーはありますが、使いづらいので。
 

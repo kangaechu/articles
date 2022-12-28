@@ -166,3 +166,4 @@ curl -v -H 'X-Requested-With: curl' 'http://192.168.1.1/wifi' \
 
 IRKitのインターネット機能がなくなったため、インターネットからIRKitを使用した家電の操作はできなくなりましたが、Raspberry Piなどを使用して同じWi-Fiの中から操作をすることは可能です。また、インターネットとうまく連携することも可能です。
 
+[延命したIRKitをiPhoneから操作する](https://zenn.dev/kangaechu/articles/irkit_control_from_iphone) に続きます。
