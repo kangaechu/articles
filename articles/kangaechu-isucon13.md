@@ -7,7 +7,7 @@ published: false
 ---
 
 [ISUCON12予選](https://zenn.dev/articles/kangaechu-isucon12-qualify)に引き続き、3度目の参加をしました。
-Golangを選択し、結果はxxx位、xxxx点でした。
+Golangを選択し、結果は149位、14,995点でした。
 
 
 ## チーム
