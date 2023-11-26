@@ -3,7 +3,7 @@ title: "チーム慎太郎でISUCON13に参加しました"
 emoji: "💺"
 type: "tech"
 topics: ["ISUCON"]
-published: false
+published: true
 ---
 
 [ISUCON12予選](https://zenn.dev/articles/kangaechu-isucon12-qualify)に引き続き、3度目の参加をしました。
