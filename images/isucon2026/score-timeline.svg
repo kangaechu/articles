@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 480" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12">
+<rect width="1040" height="480" fill="#fff"/>
+<text x="70" y="22" font-size="15" font-weight="bold" fill="#333">スコアの推移（2026-10-31、チーム慎太郎、ベンチ 42 回）</text>
+<line x1="70" y1="420.0" x2="930" y2="420.0" stroke="#e5e5e5"/>
+<text x="62" y="424.0" text-anchor="end" fill="#666">0</text>
+<line x1="70" y1="344.0" x2="930" y2="344.0" stroke="#e5e5e5"/>
+<text x="62" y="348.0" text-anchor="end" fill="#666">20,000</text>
+<line x1="70" y1="268.0" x2="930" y2="268.0" stroke="#e5e5e5"/>
+<text x="62" y="272.0" text-anchor="end" fill="#666">40,000</text>
+<line x1="70" y1="192.0" x2="930" y2="192.0" stroke="#e5e5e5"/>
+<text x="62" y="196.0" text-anchor="end" fill="#666">60,000</text>
+<line x1="70" y1="116.0" x2="930" y2="116.0" stroke="#e5e5e5"/>
+<text x="62" y="120.0" text-anchor="end" fill="#666">80,000</text>
+<line x1="70" y1="40.0" x2="930" y2="40.0" stroke="#e5e5e5"/>
+<text x="62" y="44.0" text-anchor="end" fill="#666">100,000</text>
+<line x1="70.0" y1="40" x2="70.0" y2="420" stroke="#eee"/>
+<text x="70.0" y="438" text-anchor="middle" fill="#666">10:00</text>
+<line x1="177.5" y1="40" x2="177.5" y2="420" stroke="#eee"/>
+<text x="177.5" y="438" text-anchor="middle" fill="#666">11:00</text>
+<line x1="285.0" y1="40" x2="285.0" y2="420" stroke="#eee"/>
+<text x="285.0" y="438" text-anchor="middle" fill="#666">12:00</text>
+<line x1="392.5" y1="40" x2="392.5" y2="420" stroke="#eee"/>
+<text x="392.5" y="438" text-anchor="middle" fill="#666">13:00</text>
+<line x1="500.0" y1="40" x2="500.0" y2="420" stroke="#eee"/>
+<text x="500.0" y="438" text-anchor="middle" fill="#666">14:00</text>
+<line x1="607.5" y1="40" x2="607.5" y2="420" stroke="#eee"/>
+<text x="607.5" y="438" text-anchor="middle" fill="#666">15:00</text>
+<line x1="715.0" y1="40" x2="715.0" y2="420" stroke="#eee"/>
+<text x="715.0" y="438" text-anchor="middle" fill="#666">16:00</text>
+<line x1="822.5" y1="40" x2="822.5" y2="420" stroke="#eee"/>
+<text x="822.5" y="438" text-anchor="middle" fill="#666">17:00</text>
+<line x1="930.0" y1="40" x2="930.0" y2="420" stroke="#eee"/>
+<text x="930.0" y="438" text-anchor="middle" fill="#666">18:00</text>
+<line x1="822.5" y1="40" x2="822.5" y2="420" stroke="#999" stroke-dasharray="4 3"/>
+<text x="816.5" y="52" text-anchor="end" fill="#666" font-size="11">17:00 スコアボード凍結</text>
+<path d="M84.3,408.2 L116.6,404.6 L136.3,395.0 L154.2,381.2 L172.1,371.5 L191.8,344.2 L208.0,346.5 L220.5,353.2 L233.0,348.7 L256.3,337.2 L290.4,344.4 L324.4,339.1 L351.3,322.3 L405.0,313.5 L428.3,327.3 L455.2,325.3 L487.5,283.4 L557.3,242.4 L595.0,206.7 L612.9,182.0 L618.2,152.6 L629.0,420.0 L648.7,180.9 L673.8,164.7 L707.8,156.0 L732.9,140.7 L763.4,190.5 L784.9,174.4 L804.6,99.5 L829.7,103.3 L844.0,104.3 L858.3,116.0 L861.9,75.1 L874.5,118.2 L881.6,99.4 L885.2,49.0 L890.6,65.3 L894.2,72.4 L899.5,420.0 L903.1,420.0 L906.7,115.6 L912.1,67.6" fill="none" stroke="#c0395a" stroke-width="2"/>
+<circle cx="84.3" cy="408.2" r="3" fill="#fff" stroke="#c0395a" stroke-width="1.5"/>
+<circle cx="116.6" cy="404.6" r="3" fill="#fff" stroke="#c0395a" stroke-width="1.5"/>
+<circle cx="136.3" cy="395.0" r="3" fill="#fff" stroke="#c0395a" stroke-width="1.5"/>
+<circle cx="154.2" cy="381.2" r="3" fill="#fff" stroke="#c0395a" stroke-width="1.5"/>
+<circle cx="172.1" cy="371.5" r="3" fill="#fff" stroke="#c0395a" stroke-width="1.5"/>
+<circle cx="191.8" cy="344.2" r="3" fill="#fff" stroke="#c0395a" stroke-width="1.5"/>
+<circle cx="208.0" cy="346.5" r="3" fill="#fff" stroke="#c0395a" stroke-width="1.5"/>
+<circle cx="220.5" cy="353.2" r="3" fill="#fff" stroke="#c0395a" stroke-width="1.5"/>
+<circle cx="233.0" cy="348.7" r="3" fill="#fff" stroke="#c0395a" stroke-width="1.5"/>
+<circle cx="256.3" cy="337.2" r="3" fill="#fff" stroke="#c0395a" stroke-width="1.5"/>
+<circle cx="290.4" cy="344.4" r="3" fill="#fff" stroke="#c0395a" stroke-width="1.5"/>
+<circle cx="324.4" cy="339.1" r="3" fill="#fff" stroke="#c0395a" stroke-width="1.5"/>
+<circle cx="351.3" cy="322.3" r="3" fill="#fff" stroke="#c0395a" stroke-width="1.5"/>
+<circle cx="405.0" cy="313.5" r="3" fill="#fff" stroke="#c0395a" stroke-width="1.5"/>
+<circle cx="428.3" cy="327.3" r="3" fill="#fff" stroke="#c0395a" stroke-width="1.5"/>
+<circle cx="455.2" cy="325.3" r="3" fill="#fff" stroke="#c0395a" stroke-width="1.5"/>
+<circle cx="487.5" cy="283.4" r="3" fill="#fff" stroke="#c0395a" stroke-width="1.5"/>
+<circle cx="557.3" cy="242.4" r="3" fill="#fff" stroke="#c0395a" stroke-width="1.5"/>
+<circle cx="595.0" cy="206.7" r="3" fill="#fff" stroke="#c0395a" stroke-width="1.5"/>
+<circle cx="612.9" cy="182.0" r="3" fill="#fff" stroke="#c0395a" stroke-width="1.5"/>
+<circle cx="618.2" cy="152.6" r="3" fill="#fff" stroke="#c0395a" stroke-width="1.5"/>
+<circle cx="629.0" cy="420.0" r="3" fill="#fff" stroke="#c0395a" stroke-width="1.5"/>
+<circle cx="648.7" cy="180.9" r="3" fill="#fff" stroke="#c0395a" stroke-width="1.5"/>
+<circle cx="673.8" cy="164.7" r="3" fill="#fff" stroke="#c0395a" stroke-width="1.5"/>
+<circle cx="707.8" cy="156.0" r="3" fill="#fff" stroke="#c0395a" stroke-width="1.5"/>
+<circle cx="732.9" cy="140.7" r="3" fill="#fff" stroke="#c0395a" stroke-width="1.5"/>
+<circle cx="763.4" cy="190.5" r="3" fill="#fff" stroke="#c0395a" stroke-width="1.5"/>
+<circle cx="784.9" cy="174.4" r="3" fill="#fff" stroke="#c0395a" stroke-width="1.5"/>
+<circle cx="804.6" cy="99.5" r="3" fill="#fff" stroke="#c0395a" stroke-width="1.5"/>
+<circle cx="829.7" cy="103.3" r="3" fill="#fff" stroke="#c0395a" stroke-width="1.5"/>
+<circle cx="844.0" cy="104.3" r="3" fill="#fff" stroke="#c0395a" stroke-width="1.5"/>
+<circle cx="858.3" cy="116.0" r="3" fill="#fff" stroke="#c0395a" stroke-width="1.5"/>
+<circle cx="861.9" cy="75.1" r="3" fill="#fff" stroke="#c0395a" stroke-width="1.5"/>
+<circle cx="874.5" cy="118.2" r="3" fill="#fff" stroke="#c0395a" stroke-width="1.5"/>
+<circle cx="881.6" cy="99.4" r="3" fill="#fff" stroke="#c0395a" stroke-width="1.5"/>
+<circle cx="885.2" cy="49.0" r="3" fill="#fff" stroke="#c0395a" stroke-width="1.5"/>
+<circle cx="890.6" cy="65.3" r="3" fill="#fff" stroke="#c0395a" stroke-width="1.5"/>
+<circle cx="894.2" cy="72.4" r="3" fill="#fff" stroke="#c0395a" stroke-width="1.5"/>
+<circle cx="899.5" cy="420.0" r="3" fill="#fff" stroke="#c0395a" stroke-width="1.5"/>
+<circle cx="903.1" cy="420.0" r="3" fill="#fff" stroke="#c0395a" stroke-width="1.5"/>
+<circle cx="906.7" cy="115.6" r="3" fill="#fff" stroke="#c0395a" stroke-width="1.5"/>
+<circle cx="912.1" cy="67.6" r="3" fill="#fff" stroke="#c0395a" stroke-width="1.5"/>
+<text x="122.6" y="394.6" text-anchor="start" fill="#333" font-size="11">初期 4,056</text>
+<text x="197.8" y="334.2" text-anchor="start" fill="#333" font-size="11">DB 接続の使い回し 19,940</text>
+<text x="479.5" y="277.4" text-anchor="end" fill="#333" font-size="11">画像を nginx から配信 35,951</text>
+<text x="587.0" y="200.7" text-anchor="end" fill="#333" font-size="11">画像ファイル化・libjpeg-turbo 56,128</text>
+<text x="635.0" y="410.0" text-anchor="start" fill="#333" font-size="11">FAIL：接続15本でデッドロック</text>
+<text x="769.4" y="206.5" text-anchor="start" fill="#333" font-size="11">#94 で悪化 60,400</text>
+<text x="796.6" y="91.5" text-anchor="end" fill="#333" font-size="11">#94 を外す 84,336</text>
+<text x="879.2" y="41.0" text-anchor="end" fill="#333" font-size="11">ベスト 97,626</text>
+<text x="893.5" y="410.0" text-anchor="end" fill="#333" font-size="11">再起動テスト</text>
+<text x="918.1" y="71.6" text-anchor="start" fill="#333" font-size="11">最終 92,743</text>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="13">
+  <rect width="960" height="400" fill="#fff"/>
+  <defs><marker id="m" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#555"/></marker></defs>
+  <text x="20" y="26" font-size="16" font-weight="bold" fill="#333">人と AI の役割分担（1日で PR 108 番まで、ベンチ 42 回）</text>
+
+  <!-- human lane -->
+  <rect x="20" y="50" width="920" height="110" rx="8" fill="#fef3c7" stroke="#d97706"/>
+  <text x="32" y="72" font-weight="bold" fill="#78350f">人（2人）</text>
+  <rect x="40" y="86" width="260" height="56" rx="6" fill="#fff" stroke="#d97706"/>
+  <text x="170" y="110" text-anchor="middle" fill="#333">方針と優先順位を決める</text>
+  <text x="170" y="128" text-anchor="middle" fill="#666" font-size="11">「ガンガン行こうぜ」「revert で戻す」</text>
+  <rect x="350" y="86" width="260" height="56" rx="6" fill="#fff" stroke="#d97706"/>
+  <text x="480" y="110" text-anchor="middle" fill="#333">PR をレビューしてマージ</text>
+  <text x="480" y="128" text-anchor="middle" fill="#666" font-size="11">AI は自分でマージできない設定</text>
+  <rect x="660" y="86" width="260" height="56" rx="6" fill="#fff" stroke="#d97706"/>
+  <text x="790" y="110" text-anchor="middle" fill="#333">結果を見て判断する</text>
+  <text x="790" y="128" text-anchor="middle" fill="#666" font-size="11">最後の 1 時間はベンチも人が運転</text>
+
+  <!-- AI lane -->
+  <rect x="20" y="190" width="920" height="190" rx="8" fill="#eef2ff" stroke="#4f46e5"/>
+  <text x="32" y="212" font-weight="bold" fill="#312e81">AI（Claude Code 1 セッション + サブエージェント）</text>
+  <rect x="40" y="230" width="200" height="60" rx="6" fill="#fff" stroke="#4f46e5"/>
+  <text x="140" y="252" text-anchor="middle" fill="#333">メトリクスを読む</text>
+  <text x="140" y="270" text-anchor="middle" fill="#666" font-size="11">alp / pg_stat_statements / pprof</text>
+  <rect x="280" y="230" width="200" height="60" rx="6" fill="#fff" stroke="#4f46e5"/>
+  <text x="380" y="252" text-anchor="middle" fill="#333">修正を PR にする</text>
+  <text x="380" y="270" text-anchor="middle" fill="#666" font-size="11">1 修正 1 PR、複数を並列で</text>
+  <rect x="520" y="230" width="200" height="60" rx="6" fill="#fff" stroke="#4f46e5"/>
+  <text x="620" y="252" text-anchor="middle" fill="#333">ベンチを回す</text>
+  <text x="620" y="270" text-anchor="middle" fill="#666" font-size="11">手順書を読んだ別エージェント</text>
+  <rect x="760" y="230" width="160" height="60" rx="6" fill="#fff" stroke="#4f46e5"/>
+  <text x="840" y="252" text-anchor="middle" fill="#333">原因を分析する</text>
+  <text x="840" y="270" text-anchor="middle" fill="#666" font-size="11">読み取り専用エージェント</text>
+  <line x1="240" y1="260" x2="280" y2="260" stroke="#555" marker-end="url(#m)"/>
+  <line x1="480" y1="260" x2="520" y2="260" stroke="#555" marker-end="url(#m)"/>
+  <line x1="720" y1="260" x2="760" y2="260" stroke="#555" marker-end="url(#m)"/>
+  <path d="M840,290 L840,330 L140,330 L140,290" fill="none" stroke="#555" marker-end="url(#m)"/>
+  <text x="490" y="346" text-anchor="middle" fill="#555" font-size="11">1 周 8〜10 分（事前処理 1 分・走行 2.5 分・事後処理 3 分）。マージは人、Enqueue は人か AI</text>
+  <text x="490" y="368" text-anchor="middle" fill="#666" font-size="11">応答 1,847 回・$199・API 時間 4 時間 50 分</text>
+
+  <!-- handoff arrows -->
+  <line x1="380" y1="230" x2="440" y2="142" stroke="#555" stroke-dasharray="4 3" marker-end="url(#m)"/>
+  <text x="395" y="186" fill="#555" font-size="11">PR</text>
+  <line x1="520" y1="142" x2="590" y2="230" stroke="#555" stroke-dasharray="4 3" marker-end="url(#m)"/>
+  <text x="565" y="186" fill="#555" font-size="11">「マージした」</text>
+  <line x1="790" y1="142" x2="820" y2="230" stroke="#555" stroke-dasharray="4 3" marker-end="url(#m)"/>
+  <text x="815" y="186" fill="#555" font-size="11">「分析して」</text>
+</svg>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="13">
+  <rect width="960" height="560" fill="#fff"/>
+  <defs>
+    <marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#555"/></marker>
+    <marker id="b" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#c0395a"/></marker>
+  </defs>
+  <text x="20" y="26" font-size="16" font-weight="bold" fill="#333">最終構成（18:00 時点）</text>
+
+  <!-- benchmarker / router -->
+  <rect x="20" y="50" width="150" height="64" rx="8" fill="#f3f4f6" stroke="#9ca3af"/>
+  <text x="95" y="76" text-anchor="middle" font-weight="bold" fill="#333">ベンチマーカー</text>
+  <text x="95" y="96" text-anchor="middle" fill="#555" font-size="11">asia / europe / america</text>
+  <line x1="170" y1="82" x2="210" y2="82" stroke="#555" marker-end="url(#a)"/>
+  <rect x="210" y="50" width="130" height="64" rx="8" fill="#fef3c7" stroke="#d97706"/>
+  <text x="275" y="76" text-anchor="middle" font-weight="bold" fill="#333">ルーター</text>
+  <text x="275" y="96" text-anchor="middle" fill="#555" font-size="11">リージョン間 約100ms</text>
+
+  <!-- bus from router down the left -->
+  <path d="M275,114 L275,500" fill="none" stroke="#555"/>
+  <line x1="275" y1="190" x2="320" y2="190" stroke="#555" marker-end="url(#a)"/>
+  <line x1="275" y1="345" x2="320" y2="345" stroke="#555" marker-end="url(#a)"/>
+  <line x1="275" y1="500" x2="320" y2="500" stroke="#555" marker-end="url(#a)"/>
+  <text x="200" y="300" fill="#555" font-size="11">リクエストは</text>
+  <text x="200" y="316" fill="#555" font-size="11">リージョンごとに</text>
+  <text x="200" y="332" fill="#555" font-size="11">別のサーバへ</text>
+
+  <!-- asia1 -->
+  <rect x="320" y="140" width="300" height="130" rx="8" fill="#eef2ff" stroke="#4f46e5"/>
+  <text x="332" y="162" font-weight="bold" fill="#312e81">asia1 (c1) 192.168.1.10</text>
+  <text x="332" y="182" fill="#333">nginx：asia の API を 3:1 で asia2 と分担</text>
+  <text x="332" y="202" fill="#333">isureal-go :8080（asia）</text>
+  <text x="332" y="222" fill="#333">isureal-go :8081 europe / :8082 america</text>
+  <text x="332" y="242" fill="#333">画像ファイル 13GB、署名の事前計算 100MB</text>
+  <text x="332" y="262" fill="#555" font-size="11">海外の API はここのリージョン別アプリが処理（質問回答 #20）</text>
+
+  <!-- europe1 -->
+  <rect x="320" y="300" width="300" height="90" rx="8" fill="#ecfdf5" stroke="#059669"/>
+  <text x="332" y="322" font-weight="bold" fill="#064e3b">europe1 (c2) 192.168.2.10</text>
+  <text x="332" y="342" fill="#333">nginx：API は asia1:8081 へ転送（100ms）</text>
+  <text x="332" y="362" fill="#333">isureal-go：投稿（400KB の画像）と画像配信だけ</text>
+  <text x="332" y="382" fill="#555" font-size="11">署名の事前計算 91万件を担当（CPU が空いていた）</text>
+
+  <!-- america1 -->
+  <rect x="320" y="440" width="300" height="90" rx="8" fill="#ecfdf5" stroke="#059669"/>
+  <text x="332" y="462" font-weight="bold" fill="#064e3b">america1 (c3) 192.168.3.10</text>
+  <text x="332" y="482" fill="#333">nginx：API は asia1:8082 へ転送（100ms）</text>
+  <text x="332" y="502" fill="#333">isureal-go：投稿と画像配信だけ</text>
+  <text x="332" y="522" fill="#555" font-size="11">ベンチ運用（bench.sh）も担当</text>
+
+  <!-- asia2 -->
+  <rect x="690" y="140" width="250" height="390" rx="8" fill="#fef2f2" stroke="#dc2626"/>
+  <text x="702" y="162" font-weight="bold" fill="#7f1d1d">asia2 (c4) 192.168.4.10</text>
+  <text x="702" y="186" fill="#333">PostgreSQL 16</text>
+  <text x="702" y="204" fill="#333">shared_buffers 1GB（Huge Pages）</text>
+  <text x="702" y="222" fill="#333">max_connections 220</text>
+  <text x="702" y="240" fill="#333">jit = off</text>
+  <text x="702" y="270" fill="#333">isureal-go-asia2 :8080</text>
+  <text x="702" y="288" fill="#333">asia の API の 1/4 を分担</text>
+  <text x="702" y="306" fill="#333">画像ファイル 13GB（初期データ）</text>
+  <text x="702" y="340" fill="#555" font-size="11">4GB メモリ・2 vCPU</text>
+  <text x="702" y="356" fill="#555" font-size="11">DB とアプリが CPU を取り合う</text>
+  <text x="702" y="372" fill="#555" font-size="11">＝一日を通してのボトルネック</text>
+
+  <!-- DB arrows -->
+  <line x1="620" y1="195" x2="690" y2="195" stroke="#c0395a" stroke-width="2" marker-end="url(#b)"/>
+  <text x="655" y="187" text-anchor="middle" fill="#c0395a" font-size="11">1ms</text>
+  <line x1="620" y1="345" x2="690" y2="345" stroke="#c0395a" stroke-width="2" marker-end="url(#b)"/>
+  <text x="655" y="337" text-anchor="middle" fill="#c0395a" font-size="11">100ms</text>
+  <line x1="620" y1="485" x2="690" y2="485" stroke="#c0395a" stroke-width="2" marker-end="url(#b)"/>
+  <text x="655" y="477" text-anchor="middle" fill="#c0395a" font-size="11">100ms</text>
+  <text x="655" y="420" text-anchor="middle" fill="#c0395a" font-size="11">DB 接続</text>
+</svg>
